@@ -1,38 +1,95 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebebeb;
+}
+.card-div {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.navbar-image {
+  width: 55px;
+  background-color: #212529;
+}
+
+.navbar-brand {
+  color: #ffc107;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Bree Serif", serif;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Bree Serif", serif;
+}
+.card-text {
+  font-size: 0.95rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-detail {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.85rem;
+}
+
+.card-button {
+  background-color: #17a2b8;
+  border: 0px;
+}
+
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.not-found,
+.notfound-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found {
+  height: 90vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.notfound-inner h1,
+.notfound-inner h2 {
+  font-family: "Bree Serif", serif;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.return-to-homepage {
+  text-decoration: none;
+  background-color: #3e77f1;
+  color: whitesmoke;
+  border-radius: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer-div {
+  background-color: #0a122a;
+  color: whitesmoke;
+  text-align: center;
+  height: 10vh;
 }
-
-.App-link {
-  color: #61dafb;
+.footer-div h1 {
+  font-size: 1rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heart {
+  color: #f61067;
 }
